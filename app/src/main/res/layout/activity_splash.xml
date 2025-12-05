@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootSplash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/ic_launcher_background">
+
+    <!-- 幽灵图标 -->
+    <ImageView
+        android:id="@+id/imgLogoGhost"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="@string/app_name" />
+
+    <!-- 间距 -->
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="16dp" />
+
+    <!-- APP 名字：即图 -->
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="28sp" />
+
+    <!-- 间距 -->
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="8dp" />
+
+    <!-- 副标题：所见即所得 -->
+    <TextView
+        android:id="@+id/txtAppSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="所见即所得"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+</LinearLayout>

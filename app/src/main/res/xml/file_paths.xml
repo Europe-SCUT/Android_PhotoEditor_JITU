@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 使用 app 的 cache/images 目录存放拍照图片 -->
+    <cache-path
+        name="images"
+        path="images/" />
+</paths>
