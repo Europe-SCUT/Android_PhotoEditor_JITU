@@ -80,3 +80,26 @@
 - **Glide**：图片加载库
 - **MediaStore**：用于访问相册和视频文件
 - **ProGuard / R8**：代码压缩和混淆
+
+## 目录结构
+
+```
+app/
+ ├── /src/main/java/com/example/myapplication/
+ │     ├── AlbumActivity.kt  #相册页
+ │     ├── CameraPreviewActivity.kt  #相机预览页
+ │     ├── CropOverlayView.kt  #裁剪框动画
+ │     ├── EditorActivity.kt  #编辑页
+ │     ├── ExportActivity.kt  #导出页
+ │     ├── GLImageRenderer.kt  #OpenGL渲染
+ │     ├── HistoryAdapter.kt  #历史记录加载
+ │     ├── HistoryManager.kt  #历史记录去重，限长
+ │     ├── MainActivity.kt  #主页
+ │     ├── ShimmerTextView.kt  #扫光效果
+ │     ├── SplashActivity.kt  #logo页
+ │
+ ├── /res/drawables/  #各种图标与背景色
+ ├── /res/layout/  #页面与子页面布局
+ ├── AndroidManifest.xml
+```
+
